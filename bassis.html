@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assignment-2</title>
+
+    <style>
+      #MainHeading {
+        border: 1px solid black;
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 314px;
+        margin: 10px;
+        font-style: italic;
+      }
+      body {
+        margin: 200px;
+      }
+      body::before {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+        box-sizing: border-box;
+        background-image: url(pexels-photo-3952051.webp);
+        z-index: -2;
+        opacity: 0.6;
+        background-repeat: no-repeat;
+      }
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        margin: 10px;
+      }
+      .link1 {
+        font-size: 20px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin: 10px;
+      }
+      .Fruits-ol {
+        border-style: outset;
+        width: 321px;
+        margin: 10px;
+      }
+      .vegitables-ul {
+        border-style: outset;
+        width: 321px;
+        margin: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id="MainHeading">Fruits And Vegitables</h1>
+    <div class="Fruits-ol">
+      <ol type="I">
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Grapes</li>
+      </ol>
+    </div>
+    <div class="vegitables-ul">
+      <ul type="circle">
+        <li>Potato</li>
+        <li>Tomato</li>
+        <li>Cauliflower</li>
+        <li>Brinjal</li>
+      </ul>
+    </div>
+    <a
+      href="https://blinkit.com/cn/vegetables-fruits/vegetables/cid/1487/1489?gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=GSearch_cy-IN_pb-Perf_a-All_o-All_c-Search_opt-Conversion_ds1-NA_ct-All_l-PanIndia_mpr-NA_ds2-Vegetables_Fruits-20220609&utm_term=veg%20shop%20online&gclid=Cj0KCQjw27mhBhC9ARIsAIFsETGOWLJCUfEJ0neYf88CJs6VsrOt6gT6blqSNpBMmxOWL4TlorKWZvYaAo8zEALw_wcB"
+      class="link1"
+      >Fruits and vegitables website(blinkit)</a
+    >
+    <br /><br />
+
+    <table>
+      <tr>
+        <th>Fruits(Summer)</th>
+        <th>Fruits(winter)</th>
+        <th>Fruits(Rainy)</th>
+      </tr>
+      <tr>
+        <td>Watermelon</td>
+        <td>Figs</td>
+        <td>Pears</td>
+      </tr>
+      <tr>
+        <td>Muskmelon</td>
+        <td>Strawberries</td>
+        <td>Apples</td>
+      </tr>
+      <tr>
+        <td>Mango</td>
+        <td>Guava</td>
+        <td>Plums.</td>
+      </tr>
+      <tr>
+        <td>Jackfruit</td>
+        <td>Pineapple</td>
+        <td>Cherries</td>
+      </tr>
+    </table>
+  </body>
+</html>
